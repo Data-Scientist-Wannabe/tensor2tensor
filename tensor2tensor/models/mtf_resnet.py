@@ -360,7 +360,7 @@ def mtf_resnet_base():
   hparams.add_hparam("row_blocks", 1)
   hparams.add_hparam("col_blocks", 1)
   hparams.add_hparam("rows_size", 32)
-  hparams.add_hparam("cols_size", 32)
+  hparams.add_hparam("cols_size", 96)
 
   # Model-specific parameters
   hparams.add_hparam("layer_sizes", [3, 4, 6, 3])
